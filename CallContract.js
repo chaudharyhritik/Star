@@ -7,7 +7,6 @@ var starContractAddress="0x6469D0F162A455B6B90C75615159F080520D76D1";
 var star = new web3.eth.Contract(starAbi,starContractAddress);
 const privateKey = new Buffer.from("df41f70a767fce3d45fafe4b3b9cd5aa856ab304a17728c50ed99f43c7bac186","hex");
 
-
 const Transaction = async(_data)=>{
 var gasPric= await web3.eth.getGasPrice();
 web3.eth.getTransactionCount("0x114dF342f9649f66E3e670bA29418b4693Fe3dA3").then(count => {
