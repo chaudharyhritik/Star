@@ -7,9 +7,3 @@ module.exports=solc.compile(source,1).contracts[':Star'];
 
 
 
-
-
-
-
-
-// hello world hello world
