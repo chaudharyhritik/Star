@@ -7,3 +7,4 @@ module.exports=solc.compile(source,1).contracts[':Star'];
 
 
 
+// testing command master
